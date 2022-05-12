@@ -2,14 +2,13 @@
 	height:180vh;
   display: grid;
   grid-template-columns: .75fr 1fr .75fr;
-  grid-template-rows: 0.5fr auto 1fr 0.25fr;
+  grid-template-rows: auto auto 1fr 0.25fr;
   gap: 0px 0px;
   grid-template-areas:
     "logo logo logo"
     "genres slideshow popular"
 		"genres games popular"
     "footer footer footer";
-		background-color: #ab50e8;
 }
 .slideshow {
 	grid-area: slideshow;
@@ -108,8 +107,10 @@
 
 
 body {
-	background-color:#00e673;
+	background-color: #ab50e8;
 	margin:0;
+	margin-left:10%;
+	margin-right:10%;
 }
 
 
