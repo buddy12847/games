@@ -84,3 +84,11 @@ embed {
 	width:800px;
 	height:600px;
 }
+.footer {
+	text-align:center;
+	margin-top:.5rem;
+}
+.footer a{
+	text-decoration:none;
+	color:black;
+}
