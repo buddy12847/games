@@ -1,135 +1,86 @@
-.container {
-	height:180vh;
-  display: grid;
-  grid-template-columns: .75fr 1fr .75fr;
-  grid-template-rows: auto auto 1fr 0.25fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "logo logo logo"
-    "genres slideshow popular"
-		"genres games popular"
-    "footer footer footer";
-}
-.slideshow {
-	grid-area: slideshow;
-	background-color:yellow;
-	color:white;
-	border-radius:20px;
-	margin:2rem 4rem;
-	color:black;
-	border-style: solid;
-	box-sizing: border-box;
-	width:40rem;
-	height:30rem;
-	overflow:hidden;
-
-
-}
-.slide img {
-	width:100%;
-}
-.slide {
-	display: none;
-}
-.slide a {
-	text-decoration:none;
-	color:black;
-}
-/* Slideshow container */
-.slideshow-container {
-	position: relative;
-	vertical-align:middle;
-}
-.popular {
-	grid-area: popular;
-	margin:2rem;
-	background-color: #00e673;
-	border-radius:20px;
-	border-style:solid;
-	width:20rem;
-	height:40rem;
-	overflow:hidden;
-
- }
- .populartitle {
-	 border-style: none none solid none;
-	 padding-top:1rem;
-	 padding-bottom:1rem;
-	 width:100%;
-	 line-height:1;
-	 display:block;
-	 text-align:center;
-	 font-size:22px;
-	 font-family:Helvetica;
-	 font-weight:bold;
-	 background-color:#4d4dff;
- }
-.logo {
-	grid-area: logo;
-	text-align:center;
-	padding-top:3rem;
-	padding-bottom:3rem;
-}
-.logo img {
-	width:20em;
-}
-.genres {
-	grid-area: genres;
-	background-color: #00e673;
-	margin:2rem 2rem 0 0;
-	height:40rem;
-	width:20rem;
-	border-style:solid solid solid none;
-	border-radius:0 20px 20px 0;
-	overflow:hidden;
-}
-.genrestitle {
-	border-style:none none solid none;
-	padding-top:1rem;
-	padding-bottom:1rem;
-	width:100%;
-	line-height:1;
-	display:block;
-	text-align:center;
-	font-size:22px;
-	font-family:Helvetica;
-	font-weight:bold;
-	background-color:#4d4dff;
-}
-.games {
-	grid-area: games;
-	margin:0rem 4rem;
-	height:30rem;
-	background-color:#4d4dff;
-	border-radius:20px;
-	border-style:solid;
- }
-
-
 body {
-	background-color: #ab50e8;
-	margin:0;
-	margin-left:10%;
-	margin-right:10%;
-}
-
-
-/* Footer */
-.footer {
-	grid-area: footer;
-	text-align: center;
-	height:40px;
-	padding-bottom:15px;
-	padding-top:15px;
-	color: black;
+	background-color:#A956DC;
+	padding-left:20%;
+	padding-right:20%;
 	font-family:helvetica;
 }
-.footerbtm {
-	font-size:11px;
-	color: white;
+.logo {
+	text-align:center;
+	padding-top:1rem;
+	padding-bottom:1rem;
 }
-.footertxt a {
-	font-size:13px;
+.logo img {
+	width:15em;
+}
+.navbar {
+	background-color:#5E1C88;
+	padding:1rem 0 1rem 4rem;
+}
+.navbar a {
+	color:white;
 	text-decoration:none;
-	color: white;
+	font-weight:bold;
+}
+
+main {
+	background-color:#BE80E5;
+	margin-top:1rem;
+	height:auto;
+	padding-bottom:1rem;
+	text-align:center;
+}
+h3 {
+	padding:1rem 0 0 1rem;
+	font-size:20px;
+}
+h2 {
+	padding-top:1rem;
+}
+#games {
+	margin:1rem;
+	position:relative;
+}
+.gamerow {
+	display:block;
+	position:relative;
+	text-align:left;
+}
+.game img {
+	width:300px;
+	border-style:solid;
+	border-color:white;
+	border-width:2px;
+}
+.game {
+	text-align:center;
+	display: table-cell;
+	width:.3333%;
+}
+.game h4 {
+	margin:0 0 1rem 0;
+	text-decoration:none;
+	color:black;
+	display:inline-block;
+}
+.game a {
+	text-decoration:none;
+	color:black;
+}
+#moregames {
+	text-align:center;
+	margin-top:1rem;
+}
+#moregames a {
+	padding: 1rem 2rem 1rem 2rem;
+	background-color:#5E1C88;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+#moregames a:hover {
+	background-color:#8427be;
+}
+embed {
+	width:800px;
+	height:600px;
 }
